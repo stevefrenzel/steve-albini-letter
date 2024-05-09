@@ -1,5 +1,20 @@
-body {
+@font-face {
   font-display: swap;
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./special-elite-v18-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Homemade Apple';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./homemade-apple-v22-latin-regular.woff2') format('woff2');
+}
+
+body {
   font-size: clamp(1.125rem, 1.0815rem + 0.2174vi, 1.25rem);
   margin: 0 auto;
   max-width: 82ch;
@@ -12,16 +27,14 @@ body {
 
 p {
   font-family: 'Special Elite', system-ui;
-  font-weight: 400;
-  font-style: normal;
+
   line-height: 1.75;
 }
 
 .signature {
   font-family: 'Homemade Apple', cursive;
   font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 400;
+  margin-left: 1rem;
 }
 
 .sr-only {
